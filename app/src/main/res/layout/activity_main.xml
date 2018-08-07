@@ -5,12 +5,75 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:id="@+id/home"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Courses"
+                android:id="@+id/courses"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Projects"
+                android:id="@+id/projects"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Placement"
+                android:id="@+id/placement"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Staff"
+                android:id="@+id/staff"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Courses"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ContactUS"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:id="@+id/fragment1"/>
+
+
+
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fragment Demo"
-        android:textSize="30dp"
-        android:layout_gravity="center"
-       />
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:text="Copyright @ VSL, 2018-19"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
