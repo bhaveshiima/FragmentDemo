@@ -64,7 +64,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.8"
-        android:id="@+id/fragment1"/>
+        android:id="@+id/fragment1"
+        android:name="vsl.bhavesh.fragmentdemo.HomeFragment"
+        />
 
 
 
@@ -72,8 +74,9 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="0.1"
-        android:text="Copyright @ VSL, 2018-19"
-        android:textSize="25dp"
+        android:text="Copyright @ Vikram Sarabhai Library"
+        android:textStyle="bold"
+        android:textSize="20dp"
         android:layout_gravity="center"/>
 
 </LinearLayout>
