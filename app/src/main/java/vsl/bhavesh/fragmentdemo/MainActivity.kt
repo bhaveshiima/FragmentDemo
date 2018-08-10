@@ -13,6 +13,11 @@ class MainActivity : AppCompatActivity() {
 
         var fManager = supportFragmentManager // get support fragment manageger
 
+        // First time we have to add that fragment
+        var tx = fManager.beginTransaction()  // get fragmenet transation class object
+        tx.add(R.id.fragment1,HomeFragment())
+        tx.commit()
+
         // When click on Project Tab
         projects.setOnClickListener {
 

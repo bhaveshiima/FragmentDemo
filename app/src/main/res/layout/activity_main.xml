@@ -60,13 +60,12 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-    <fragment
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.8"
         android:id="@+id/fragment1"
-        android:name="vsl.bhavesh.fragmentdemo.HomeFragment"
-        />
+         />
 
 
 

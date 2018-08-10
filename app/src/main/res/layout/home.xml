@@ -16,6 +16,16 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:textColor="#FFFFFF"
+        android:id="@+id/tv1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/clickme"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
         />
 
 </RelativeLayout>
